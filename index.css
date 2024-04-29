@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, black, rgb(79, 36, 104), black, rgb(149, 80, 189));
+    background-size:300%;
+    animation: color 12s ease-in-out infinite;
+}
+.container .header{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container .header .logo{
+    width: 220px;
+    height: 180px;
+    padding: 10px 15px 10px 15px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+.header-text{
+    margin-top: 10%;
+    font-size: 30px;
+    color: white;
+    overflow: hidden;
+}
+.multitext{
+    color: white;
+    display: inline;
+}
+ .header-text h1{
+    margin-top: 10px;
+    font-size: 100px;
+ }
+ .header-text h1 span{
+    color: rgb(255, 217, 0);
+ }
+
+ #about{
+    padding: 80px 180px;
+    color:white;
+ }
+ .row{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+ }
+
+ .about-col1{
+    flex-basis: 35%;
+    justify-content: center;
+ }
+ .about-col1 img{
+    width: 70%;
+    border-radius: 25px;
+ }
+ .about-col2{
+    flex-basis: 60%;
+    padding: 0%;
+ }
+ .sub-title{
+    font-size: 60px;
+    font-weight: 700;
+ }
+ .tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+ }
+ .tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+ }
+ .tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: rgb(191, 126, 230);;
+    position: absolute;
+    left:0;
+    bottom: -8px;
+    transition: 0.5s;
+ }
+
+ .tab-links.active::after{
+    width: 100%;
+ }
+ .tab-contents ul li{
+   list-style: none;
+   margin: 10px 0;
+   font-size: 20px;
+ }
+ .tab-contents ul li span{
+    color:rgb(191, 126, 230);
+    font-size: 30px;
+ }
+ .tab-contents{
+    display: none;
+ }
+ .tab-contents.active-tab{
+    display: block;
+ }
+
+
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
