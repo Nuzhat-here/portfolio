@@ -420,7 +420,7 @@ nav .fas{
    display: none;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 350px){
    .header-text{
       margin-top: 100%;
       font-size: 12px;
