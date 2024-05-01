@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault(); 
         fetch(scriptURL, {method: 'POST', body: new FormData(form)})
         .then(response => {
-            msgSpan.innerText = 'msg sent done';
+            msgSpan.innerText = 'message sent successfully';
             setTimeout(function() {
                 form.submit(); 
                 msgSpan.innerHTML=""
