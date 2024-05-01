@@ -228,6 +228,8 @@ nav ul li a:hover::after{
     border-radius: 20px;
     position: relative;
     overflow: hidden;
+    width: 30rem;
+    height: 20rem;
  }
  .work img{
     width: 100%;
@@ -315,7 +317,6 @@ nav ul li a:hover::after{
    padding-left: 10px;
 }
 .contact-left p{
-   -top: px;
    color: white;
    font-size: 19px;
    padding-right: 12px;
@@ -403,6 +404,13 @@ form input, form textarea{
    color: green;
    margin-top: -20px;
    display: block;
+}
+.container0{
+   width: 100%;
+    height: 95vh;
+    background: linear-gradient(45deg, black, rgb(79, 36, 104), black, rgb(149, 80, 189));
+    background-size:300%;
+    animation: color 12s ease-in-out infinite;
 }
 @keyframes color{
     0%{
@@ -521,46 +529,47 @@ nav .fas{
       padding:50px 60px;
       font-size: 40px;
    }
+   .work{
+      
+      width: 18rem;
+      height: 10rem;
+   }
    .work-list{
       margin-top: 10px;
-      padding: 10px 30px;
+      padding: 10px 0rem;
    }
    .contact-left{
-      margin-top: 10px;
+      margin-top: 10%;
       padding: 0 30px;
    }
 
    .subtitle4{
       font-size: 30px;
-      padding: 50px 60px;
+      padding: 50px 90px 50px 100px;
    }
    #contact{
       color:white;
       width: 100%;
    }
    .subtitle4{
-      padding:50px 0px 60px 90px;
-      font-size: 35px;
+      padding:50px 6rem;
+      font-size: 30px;
    }
    .contact-left p i{
       position: absolute;
-      left: 60px;
+      left: 2rem;
       color: white;
    }
    .contact-left p{
       margin-top: 0px;
-      left: 50px;
+      padding:  0 4rem;
    }
    .contact-left .sns{
-      padding-left: 50px
-   }
-   .btn.btn2 {
-      margin:auto;
+      padding: 2rem;
    }
    .contact-right{
       margin-top: 30px;
       width: 100%;
-
    }
    form input, form textarea {
       width: 100%;
@@ -568,11 +577,21 @@ nav .fas{
       justify-content: center;
       align-items: center;
    }
+   .btn.btn2{
+      margin: 4rem;
+   }
 
    .btn_btn2{
-
-      margin-left: 120px;
-      margin-right: 140px;
+    
+     margin-left: 220px;
+     margin-right: 200px;
+   }
+   .container0{
+      height: 100vh;
+      background: linear-gradient(45deg, black, rgb(79, 36, 104), black, rgb(149, 80, 189));
+      animation: color 12s ease-in-out infinite;
+      background-size: 300%;
+      margin: auto;
    }
    
 
