@@ -420,7 +420,7 @@ nav .fas{
    display: none;
 }
 
-@media only screen and (max-width: 350px){
+@media (max-width: 600px){
    .header-text{
       margin-top: 100%;
       font-size: 12px;
@@ -485,13 +485,13 @@ nav .fas{
    }
 
    #about{
-      padding: 80px 50px;
+      padding: 80px 40px;
       color:white;
    }
    .about-col1 img{
 
-      width: 320px;
-      height: 400px;
+      width: 340px;
+      height: 450px;
       border-radius: 25px;
    }
    .tab-links{
@@ -533,7 +533,49 @@ nav .fas{
    .subtitle4{
       font-size: 30px;
       padding: 50px 60px;
+   }
+   #contact{
+      color:white;
+      width: 100%;
+   }
+   .subtitle4{
+      padding:50px 0px 60px 90px;
+      font-size: 35px;
+   }
+   .contact-left p i{
+      position: absolute;
+      left: 60px;
+      color: white;
+   }
+   .contact-left p{
+      margin-top: 0px;
+      left: 50px;
+   }
+   .contact-left .sns{
+      padding-left: 50px
+   }
+   .btn.btn2 {
+      margin:auto;
+   }
+   .contact-right{
+      margin-top: 30px;
+      width: 100%;
 
    }
+   form input, form textarea {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .btn_btn2{
+
+      margin-left: 120px;
+      margin-right: 140px;
+   }
+   
+
+
 
 }
