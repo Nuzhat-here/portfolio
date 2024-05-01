@@ -11,9 +11,29 @@ var tablinks = document.getElementsByClassName("tab-links");
             document.getElementById(tabname).classList.add("active-tab")
         }
 var typingEffect = new Typed(".multitext",{
-    strings : ["UI/UX Designer", "Web Developer", "Graphic Designer"],
+    strings : ["UI/UX Designer...", "Web Developer...", "Graphics Designer..."],
     loop: true, 
-    typeSpeed : 100,
-    backSpeed : 90,
+    typeSpeed : 50,
+    backSpeed : 50,
     backDelay : 1000
 })
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const scriptURL = 'https://sheetdb.io/api/v1/7sd6zc8ypucqv'
+    var form = document.getElementById('sheetdb-form');
+    var msgSpan = document.getElementById('msg');
+
+    form.addEventListener('submit', e=> {
+        e.preventDefault(); 
+        fetch(scriptURL, {method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msgSpan.innerText = 'msg sent done';
+            setTimeout(function() {
+                form.submit(); 
+                msgSpan.innerHTML=""
+            }, 5000);
+        })
+        
+    });
+});
