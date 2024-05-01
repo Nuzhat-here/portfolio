@@ -18,6 +18,15 @@ var typingEffect = new Typed(".multitext",{
     backDelay : 1000
 })
 
+var sidemeu = document.getElementById("sidemenu")
+
+function openmenu(){
+    sidemeu.style.right = "0";
+
+}
+function closemenu(){
+    sidemeu.style.right = "-400px";
+}
 
 document.addEventListener('DOMContentLoaded', function() {
     const scriptURL = 'https://sheetdb.io/api/v1/7sd6zc8ypucqv'
