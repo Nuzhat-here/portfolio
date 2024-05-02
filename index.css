@@ -331,7 +331,7 @@ nav ul li a:hover::after{
    margin-top: 15rem;
 }
 .contact-right{
-   margin-top: 15rem;
+   margin-top: 10rem;
 }
 .subtitle4{
    color: white;
@@ -379,7 +379,7 @@ nav ul li a:hover::after{
 .contact-left .btn.btn2{
 
    display: block;
-   margin: 1rem  15rem;
+   margin: 1rem  16rem;
 
 }
 
@@ -408,12 +408,8 @@ form textarea
    font-size: 18px;
    border-radius: 6px;
  }
-.con-items{
-   display: none;
- }
-form .btn_btn2{
-
-   margin-left: 0;
+.btn_btn2{
+   margin: 2rem 0rem;
    border: 1px solid white;
    padding: 14px 50px;
    border-radius: 7px;
@@ -464,6 +460,10 @@ form .btn_btn2{
 }
 
 nav .fas{
+   display: none;
+}
+
+.sns2 a{
    display: none;
 }
 
@@ -619,6 +619,7 @@ nav .fas{
       font-size: 30px;
    }
    .contact-right{
+      margin-top: 5rem;
       overflow-y: hidden;
    }
    
@@ -629,25 +630,23 @@ nav .fas{
       overflow-y: hidden;
       margin: 1rem;
    }
-   .con-sub{
+    .con-sub{
       color: white;
       overflow-y: hidden;
       margin: 0 7rem;
    }
-   .con-items p{
+    .con-items p{
       color: white;
       font-size: 19px;
       margin: 0 4rem;
-      
    }
-   
-   .con-items p i{
+    .con-items p i{
       color:#bf7ee6;
       font-size: 20px;
       padding: 0;
       margin: 0;
    }
-   .sns2 a{
+   .sns2 a {
       text-decoration: none;
       font-size: 30px;
       margin: 3rem;
@@ -660,14 +659,13 @@ nav .fas{
       color: #bf7ee6;
       transform: translateY(-5px);
    }
-   }
+   
    .btn.btn2{
       margin: 4rem;
    }
 
-   .btn_btn2{
-    
-     margin: 2rem 8rem;
+   .contact-right .btn_btn2{
+      margin: 2rem 8rem;
    }
    .container0{
       
@@ -678,3 +676,4 @@ nav .fas{
       margin: auto;
    }
    
+}
