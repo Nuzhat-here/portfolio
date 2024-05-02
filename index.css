@@ -99,16 +99,21 @@ nav ul li a:hover::after{
     flex-basis: 60%;
     padding: 0%;
  }
+ .about-col2 p{
+   font-size: 25px;
+ }
  .sub-title{
     color: white;
     font-size: 60px;
     font-weight: 700;
+    margin-bottom: 30px;
  }
  .tab-titles{
     display: flex;
-    margin: 20px 0 40px;
+    margin: 0px 0 40px;
  }
  .tab-links{
+    margin-top: 30px;
     margin-right: 50px;
     font-size: 18px;
     font-weight: 500;
@@ -132,7 +137,7 @@ nav ul li a:hover::after{
  }
  .tab-contents ul li{
    list-style: none;
-   margin: 10px 0;
+   margin: 7px 0;
    font-size: 20px;
  }
  .tab-contents ul li span{
@@ -194,6 +199,9 @@ nav ul li a:hover::after{
     margin-top: 20px;
     display: inline-block;
     color: rgb(255, 217, 0);
+ }
+ .services-list p{
+   font-size: 20px;
  }
  .services-list div h2:hover{
     color: rgb(255, 217, 0);
@@ -582,6 +590,9 @@ nav .fas{
       gap: 7px;
       overflow: hidden;
    }
+   .services-list p{
+      font-size: 10px;
+    }
    .container{
       height: 140vh;
       margin-right: 0;
