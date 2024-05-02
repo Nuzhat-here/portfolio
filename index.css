@@ -544,6 +544,7 @@ nav .fas{
    }
    .about-col2 p{
       text-wrap: wrap;
+      font-size: 1.1rem;
    }
 
    #about{
@@ -560,10 +561,11 @@ nav .fas{
       font-size: 1.1rem;
    }
    .tab-titles{
-      margin: 2rem 0;
+      margin: 1rem 0;
    }
-   .tab-links{
+   p.tab-links {
       font-size: 1rem;
+      font-weight: 600;
    }
    .tab-links::after{
       content: '';
