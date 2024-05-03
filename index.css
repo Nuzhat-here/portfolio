@@ -362,10 +362,11 @@ nav ul li a:hover::after{
 }
 
 .contact-left p i{
+   overflow-y: hidden;
    color:#bf7ee6;
    margin-right: 5px;
    margin-left: 15px;
-   font-size: 25px;
+   font-size: 1rem;
    
 }
 .sns{
@@ -660,6 +661,7 @@ nav .fas{
       color: white;
       overflow-y: hidden;
       margin: 0 7rem;
+      font-size: 2rem;
    }
     .con-items p{
       color: white;
@@ -668,7 +670,7 @@ nav .fas{
    }
     .con-items p i{
       color:#bf7ee6;
-      font-size: 20px;
+      font-size: 1rem;
       padding: 0;
       margin: 0;
    }
