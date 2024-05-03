@@ -633,10 +633,10 @@ nav .fas{
       margin-top: 10px;
       padding: 10px 1rem;
    }
-   .subtitle4{
+   /* .subtitle4{
       font-size: 30px;
       padding: 50px 90px 50px 100px;
-   }
+   } */
   
    .row{
       grid-template-columns: 1fr;
@@ -705,4 +705,96 @@ nav .fas{
       margin: auto;
    }
    
+}
+@media (max-width: 376px)
+{
+   #services{
+      padding: 0 ;
+   }
+   #portfolio{
+      padding-top: 0;
+   }
+
+   .services-list div h2{
+      font-size: 2rem;
+   }
+   .services-list{
+      margin-top: 0;
+   }
+   .services-list div{
+      padding: 1.2rem 2rem;
+   }
+   .subtitle{
+      
+      font-size: 2rem;
+      padding: 2rem 6.5rem;
+   }
+   .subtitle3{
+      margin-top: 0;
+      padding: 1rem 4rem;
+      font-size: 2rem;
+   }
+   .sns2 a {
+
+      text-decoration: none;
+      font-size: 20px;
+      margin: 3rem;
+      color: white;
+      display: inline-block;
+      transition: transform 0.5s;
+   }
+
+   .sns2 a:hover{
+      color: #bf7ee6;
+      transform: translateY(-5px);
+   }
+   
+   .btn.btn2{
+      display: none;
+      margin: 4rem;
+   }
+
+   .contact-right .btn_btn2{
+      margin: 2rem 9.5rem;
+   }
+   .contact-right{
+      margin-top: 1.5rem;
+   }
+   .row{
+      height: 85vh;
+      grid-template-columns: 1fr;
+   }
+   .container0{
+      height: 100vh;
+      background: linear-gradient(45deg, black, rgb(79, 36, 104), black, rgb(149, 80, 189));
+      animation: color 12s ease-in-out infinite;
+      background-size: 300%;
+   }
+   
+   .con-sub{
+      color: white;
+      overflow-y: hidden;
+      margin: 0 6rem;
+      font-size: 2rem;
+   }
+    .con-items p{
+      color: white;
+      font-size: 1.2rem;
+      margin: 0 3.1rem;
+
+   }
+    .con-items p i{
+      color:#bf7ee6;
+      font-size: 1rem;
+      padding: 0;
+      margin: 0;
+   }
+   form input, form textarea{
+      
+      margin: 0.5rem 1rem;
+   }
+   .contact-right .btn_btn2{
+      margin: 1rem 6.5rem;
+   }
+
 }
