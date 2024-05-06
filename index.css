@@ -775,18 +775,24 @@ nav .fas{
       color: white;
       overflow-y: hidden;
       margin: 0 6rem;
-      font-size: 1.8rem;
+      display: flex;
+      justify-content: center;
+      font-size: 1.2rem;
    }
     .con-items p{
+      display: flex;
+      justify-content: space-around;
       color: white;
       font-size: 1.2rem;
-      margin: 0 3.1rem;
+      margin: 0 3.1rem ;
 
    }
     .con-items p i{
+      display: flex;
+      justify-content: center;
       color:#bf7ee6;
       font-size: 0.8rem;
-      padding: 0 0.2rem;
+      padding: 0.4rem 0.2rem 0 0.2rem;
       margin: 0;
    }
    form input, form textarea{
