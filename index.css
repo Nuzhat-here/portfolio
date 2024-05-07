@@ -706,7 +706,7 @@ nav .fas{
    }
    
 }
-@media (width <= 375px)
+@media (width <= 360px)
 {
    #services{
       padding: 0 ;
