@@ -484,13 +484,11 @@ nav .fas{
    body{
       background-color: black;
       background-size: cover;
-      
-      
   }
 
    .header-text{
-      margin-top: 100%;
-      font-size: 12px;
+      margin-top: 60%;
+      font-size: 15px;
    }
    .container .header .logo{
       width: 11rem;
@@ -503,8 +501,7 @@ nav .fas{
       padding: 10px 15px 10px 15px;
   }
    .header-text h1{
-      margin-top: 10px;
-      font-size: 30px;
+      font-size: 2rem;
    }
 
    nav .fas{
@@ -514,7 +511,7 @@ nav .fas{
       background: transparent;
    }
    .multitext{
-      font-size: 20px;
+      font-size: 1.5rem;
   }
   nav ul{
    background:rgba(22, 18, 24, 0.6);
