@@ -12,10 +12,25 @@ body{
 }
 .container{
     width: 100%;
-    height: 95vh;
+    height: 100vh;
     background: linear-gradient(45deg, black, rgb(79, 36, 104), black, rgb(149, 80, 189));
     background-size:300%;
     animation: color 12s ease-in-out infinite;
+    padding: 3%;
+}
+.container5{
+   width: 100%;
+   height: auto;
+   background: linear-gradient(45deg, black, rgb(79, 36, 104), black, rgb(149, 80, 189));
+   background-size:300%;
+   animation: color 12s ease-in-out infinite;
+   padding: 5% 0;
+}
+.container2{
+   width: 100%;
+   height: auto;
+   background: black;
+   padding: 2% auto;
 }
 .container .header{
     padding: 10px 10%;
@@ -153,8 +168,8 @@ nav ul li a:hover::after{
     color: white;
     font-size: 60px;
     font-weight: 700;
-    padding: 50px 0;
-    padding-left: 100px;
+    text-align: center;
+    padding: 0px 0;
 }
  .services-list{
     display: grid;
@@ -170,7 +185,7 @@ nav ul li a:hover::after{
     background: black;
     align-items: center;
     padding: 40px ;
-    font-size: 13px;
+    font-size: 1rem;
     font-weight: 300;
     border-radius: 10px;
     transition: 0.5s ease-out;
@@ -204,7 +219,7 @@ nav ul li a:hover::after{
  }
 
  #portfolio{
-    padding: 50px 0;
+    padding: auto 0;
     color: white;
     background-color: black;
 
@@ -213,16 +228,15 @@ nav ul li a:hover::after{
     color: white;
     font-size: 60px;
     font-weight: 700;
-    padding: 50px 0;
-    padding-left: 100px
+    text-align: center;
+    padding: 0;
  }
  .work-list{
     display: grid;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 0rem 5rem;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-gap: 40px;
-    margin-top: 120px;
+    margin-top: 4%;
  }
  .work{
     border-radius: 20px;
@@ -419,6 +433,7 @@ form input, form textarea{
 .container0{
    width: 100%;
     height: 70vh;
+    padding: 1%;
     background: linear-gradient(45deg, black, rgb(79, 36, 104), black, rgb(149, 80, 189));
     background-size:300%;
     animation: color 12s ease-in-out infinite;
@@ -555,12 +570,20 @@ nav .fas{
       width: 100%;
       
    }
+   #portfolio{
+      padding-top:0 ;
+   }
    .subtitle{
-      font-size: 40px;
+      text-align: center;
+      font-size: 2rem;
+   }
+   #services{
+      padding-bottom: 20px;
    }
    .services-list{
-      margin-top: 2rem;
+      margin-top: 1rem;
       padding:0 10px;
+      height: auto;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 7px;
       overflow: hidden;
@@ -568,30 +591,42 @@ nav .fas{
    .services-list p{
       font-size: 10px;
     }
+   .services-list div{
+      width: 100%;
+      height: 100%;
+    }
    .container{
-      height: 140vh;
-      margin-right: 0;
+      height: 100vh;
    }
-   #portfolio{
-      padding: 0;
-
+   .container5{
+      padding-top: 4%;
+      height: auto;
    }
    .container2{
-      padding: 10px 50px;
+
+      height: auto;
+      margin: 0 auto;
    }
    .subtitle3{
-      padding:50px 60px;
-      font-size: 40px;
+
+      text-align: center;
+      margin-top: 0;
+      font-size: 2rem;
    }
    .work{
-      
-      width: 18rem;
-      height: 10rem;
+      margin: 0 2.5rem;
+      width: 80%;
+      height: 90%;
    }
    .work-list{
-      margin-top: 10px;
-      padding: 10px 1rem;
-   }
+      margin-top: 3%;
+      display: grid;
+      padding: 0.5rem 1rem;
+      justify-content: center;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 2rem;
+ }
+      
 
    .row1{
       display: none;
@@ -816,11 +851,11 @@ nav .fas{
    .subtitle{
       
       font-size: 2rem;
-      padding: 2rem 6.5rem;
+      margin: 2% auto;
+      /* padding: 2rem 6.5rem; */
    }
    .subtitle3{
-      margin-top: 0;
-      padding: 1rem 4rem;
+      margin: 2% auto;
       font-size: 2rem;
    }
    .sns2 a {
