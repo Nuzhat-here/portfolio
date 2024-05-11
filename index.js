@@ -18,6 +18,12 @@ var typingEffect = new Typed(".multitext",{
     backDelay : 1000
 })
 
+function togglePopup() {
+    var popupContainer = document.getElementById("popupcont0");
+    popupContainer.classList.toggle("active"); // Toggle the 'active' class
+}
+
+
 var sidemeu = document.getElementById("sidemenu")
 
 function openmenu(){
@@ -41,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
             setTimeout(function() {
                 form.submit(); 
                 msgSpan.innerHTML=""
-            }, 5000);
+            }, 50000);
         })
         
     });
