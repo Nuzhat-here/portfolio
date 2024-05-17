@@ -651,11 +651,12 @@ nav .fas{
 
    .contact-right form{
       width: 90%;
-      margin: 0 3%;
+      margin: 0%;
    }
 
    .container0{
       height: auto;
+      display: grid;
       width: 100%;
       background: linear-gradient(45deg, black, rgb(79, 36, 104), black, rgb(149, 80, 189));
       animation: color 12s ease-in-out infinite;
@@ -663,12 +664,12 @@ nav .fas{
       padding: 10% 0;
    }
    .btn_btn2{
-      margin: 2rem 35%;
+      margin: 2rem 30%;
    }
   .btn1 {
       margin: 10% auto;
       text-align: center;
-      display: flex;
+      display: inline;
       justify-content: center;
       align-items: center;
       width: 70%;
@@ -687,7 +688,8 @@ nav .fas{
  
  #container-stars {
       position: absolute;
-      z-index: -1;
+      z-index: -9;
+      top:0;
       width: 100%;
       height: 100%;
       overflow: hidden;
@@ -727,7 +729,7 @@ nav .fas{
  }
  
  .btn1:hover #container-stars {
-   z-index: 1;
+   z-index: -1;
    background-color: #212121;
  }
  
@@ -810,26 +812,29 @@ nav .fas{
  }
 
 
- /* popupss */
+ /* contactss */
 
  .row1{
    display:inline;
+   overflow-x: hidden;
+   display:inline;
    top: 50%;
    left: 50%;
-   margin: 0 2.5rem;
+   margin: 0;
 }
 .row1 .subtitle4{
    display: none;
 }
 .row1 p{
-   margin: -3% ;
+   margin: 1rem -5% ;
 }
 .row1 .sns{
-   margin: 3% -3%;
+   margin: 0 4rem;
+   padding: 5% 5%;
 }
 
 }
-@media (width<= 319px)
+@media (width<= 340px)
 {
    #services{
       padding: 0 ;
@@ -876,15 +881,36 @@ nav .fas{
       display: none;
       margin: 4rem;
    }
+   .btn1{
+      margin: 0 auto;
+   }
 
+   .contact-left{
+      margin: 0.5% 0;
+   }
    .contact-right .btn_btn2{
       margin: 2rem auto;
    }
    .contact-right{
-      margin-top: 1.5rem;
+      width: 100vw;
+      margin-top: -20px;
+      padding-left: 0;
+      margin-right:0%;
+   }
+   .row1 .subtitle4{
+      display: none;
+   }
+   .row1 p{
+      font-size: 18px;
+      margin: 0 ;
+      padding-left: 2%;
+   }
+   .row1 .sns{
+      margin: 0 1.5rem;
+      padding: 5% 4%;
    }
    .row1{
-      height: 85vh;
+      height: 15vh;
       grid-template-columns: 1fr;
    }
    .container0{
@@ -923,7 +949,7 @@ nav .fas{
       margin: 0.5rem 1rem;
    }
    .contact-right .btn_btn2{
-      margin: 1rem;
+      margin: 0 6rem;
    }
 
 }
