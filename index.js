@@ -11,18 +11,12 @@ var tablinks = document.getElementsByClassName("tab-links");
             document.getElementById(tabname).classList.add("active-tab")
         }
 var typingEffect = new Typed(".multitext",{
-    strings : ["UI/UX Designer...", "Web Developer...", "Graphics Designer..."],
+    strings : ["Web Developer...", "Graphics Designer...", "UI/UX Designer..."],
     loop: true, 
     typeSpeed : 50,
     backSpeed : 50,
     backDelay : 1000
 })
-
-function togglePopup() {
-    var popupContainer = document.getElementById("popupcont0");
-    popupContainer.classList.toggle("active"); // Toggle the 'active' class
-}
-
 
 var sidemeu = document.getElementById("sidemenu")
 
@@ -47,8 +41,9 @@ document.addEventListener('DOMContentLoaded', function() {
             setTimeout(function() {
                 form.submit(); 
                 msgSpan.innerHTML=""
-            }, 50000);
+            }, 5000);
         })
         
     });
 });
+

@@ -233,7 +233,7 @@ nav ul li a:hover::after{
  }
  .work-list{
     display: grid;
-    padding: 0rem 10rem;
+    padding: 0rem 5rem;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-gap: 40px;
     margin-top: 4%;
@@ -242,8 +242,8 @@ nav ul li a:hover::after{
     border-radius: 20px;
     position: relative;
     overflow: hidden;
-    width: 30rem;
-    height: 20rem;
+    width: 400px;
+    height: 250px;
  }
  .work img{
     width: 100%;
@@ -321,15 +321,17 @@ nav ul li a:hover::after{
    padding-left: 100px;
 }
 .contact-left{
-   flex-basis: 35%;
-   margin-top: 10px;
+   display: block;
+   flex-basis: 65%;
+   margin: 20px 0%;
 }
 
 .contact-right{
    margin-top: 20px;
    flex-basis: 60%;
-   padding-left: 10px;
+   padding-left: 50px;
 }
+
 .contact-left p{
    color: white;
    font-size: 19px;
@@ -378,8 +380,7 @@ nav ul li a:hover::after{
    width: 100%;
 }
 .row1{
-   display: flex;
-   flex-wrap: wrap;
+   
    align-items: center;
 }
 form input, form textarea{
@@ -411,7 +412,6 @@ form input, form textarea{
    
 }
 .copyright{
-
    width: 100%;
    color: white;
    text-align: center;
@@ -434,13 +434,11 @@ form input, form textarea{
 .container0{
    width: 100%;
     height: 70vh;
-    padding: 1% 0%;
+    padding: 1%;
+    display: flex;
     background: linear-gradient(45deg, black, rgb(79, 36, 104), black, rgb(149, 80, 189));
     background-size:300%;
     animation: color 12s ease-in-out infinite;
-}
-.popupclass{
-   display: none;
 }
 @keyframes color{
     0%{
@@ -542,7 +540,7 @@ nav .fas{
    }
    .about-col1 img{
       margin: 0rem;
-      width: 17rem;
+      width: 18rem;
       height: 30rem;
       border-radius: 25px;
    }
@@ -630,19 +628,9 @@ nav .fas{
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       grid-gap: 2rem;
  }
-   .container0 .active{
-      filter: blur(0.1rem);
-   }
-   .btn_btn2{
-      margin: 0 25% ;
-   }
-   #msg{
-      color: green;
-      margin-top: -20px;
-      display: block;
-   }
+      
 
-  
+   
    .copyright{
       display: block;
       width: 100%;
@@ -660,99 +648,32 @@ nav .fas{
       font-size: 20px;
       padding: 0 7px;
    }
-   .subtitle4{
+
+   .contact-right form{
+      width: 90%;
+      margin: 0 3%;
+   }
+
+   .container0{
+      height: auto;
       width: 100%;
-      text-align: center;
-      font-size: 2rem;
-      padding: 0;
-      margin:auto;
-   }
-   #popupcont0{
-   position: fixed;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: auto;
-    padding: 2rem;
-    background: rgb(0, 0, 0);
-    color: white;
-    visibility: hidden; /* Hidden by default */
-    opacity: 0; /* Invisible when hidden */
-    transition: all 0.5s;
-    z-index: 100;
-   }
-   #popupcont0.active {
-      visibility: visible; /* Make it visible when active */
-      opacity: 1;
-      z-index: 999; /* Ensure it's on top */
-  }
-   #contact{
-      position: relative;
       background: linear-gradient(45deg, black, rgb(79, 36, 104), black, rgb(149, 80, 189));
-      background-size:300%;
-      height: 15vh;
-      padding: 1% 0;
       animation: color 12s ease-in-out infinite;
+      background-size: 300%;
+      padding: 10% 0;
    }
-   .row1{
-      visibility: hidden;
-      width: 100%;
-      display: block;
+   .btn_btn2{
+      margin: 2rem 35%;
    }
-   .contact-left{
-      visibility: visible;
-      text-align: center;
-   }
-   
-   .contact-left p{
-      width:100%;
-      font-size: 20px;
-      text-align: center;
-      color: white;
-      padding: 1% 0;
-      margin: 0 0;
-   }
-   .sns{
-      padding: 7% 0;
-      display: block;
-      column-gap:0rem;
-   }
-   .sns a {
-      font-size: 2rem;
-      margin: 0.5rem;
-      color: white;
-      padding: 7% 5%;
-
-   }
-   .contact-right{
-      visibility: visible;
-      padding: 0 7%;
-   }
-   .contact-left p .fa-solid{
-      display: none;
-   }
-   .contact-right form input, form textarea{
-   
-      width: 100%;
-      border: 0;
-      outline: none;
-      background: white;
-      padding: 15px;
-      margin: 15px 0;
-      color: black;
-      font-size: 18px;
-      border-radius: 6px;
-   }
-
   .btn1 {
-      margin: 0% auto;
+      margin: 10% auto;
       text-align: center;
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 20rem;
+      width: 70%;
       overflow: hidden;
-      height: 3rem;
+      height: 4rem;
       background-size: 300% 300%;
       backdrop-filter: blur(1rem);
       border-radius: 5rem;
@@ -814,37 +735,11 @@ nav .fas{
    transform: scale(1.1)
  }
  
- .btn1:active {
-   border: double 4px #FE53BB;
-   background-origin: border-box;
-   background-clip: content-box, border-box;
-   animation: none;
- }
- 
- .btn1:active .circle {
-   background: #FE53BB;
- }
- 
  #stars {
    position: relative;
    background: transparent;
    width: 200rem;
    height: 200rem;
- }
- 
- #stars::after {
-   content: "";
-   position: absolute;
-   top: -10rem;
-   left: -100rem;
-   width: 100%;
-   height: 100%;
-   animation: animStarRotate 90s linear infinite;
- }
- 
- #stars::after {
-   background-image: radial-gradient(#ffffff 1px, transparent 1%);
-   background-size: 50px 50px;
  }
  
  #stars::before {
@@ -915,6 +810,23 @@ nav .fas{
  }
 
 
+ /* popupss */
+
+ .row1{
+   display:inline;
+   top: 50%;
+   left: 50%;
+   margin: 0 2.5rem;
+}
+.row1 .subtitle4{
+   display: none;
+}
+.row1 p{
+   margin: -3% ;
+}
+.row1 .sns{
+   margin: 3% -3%;
+}
 
 }
 @media (width<= 319px)
@@ -966,7 +878,7 @@ nav .fas{
    }
 
    .contact-right .btn_btn2{
-      margin: 2rem 9.5rem;
+      margin: 2rem auto;
    }
    .contact-right{
       margin-top: 1.5rem;
