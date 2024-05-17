@@ -834,7 +834,7 @@ nav .fas{
 }
 
 }
-@media (width<= 340px)
+@media (width<= 370px)
 {
    #services{
       padding: 0 ;
@@ -879,7 +879,7 @@ nav .fas{
    
    .btn.btn2{
       display: none;
-      margin: 4rem;
+      margin: 1rem;
    }
    .btn1{
       margin: 0 auto;
@@ -901,13 +901,14 @@ nav .fas{
       display: none;
    }
    .row1 p{
-      font-size: 18px;
-      margin: 0 ;
-      padding-left: 2%;
+      font-size: 15px;
+      margin: 0 auto;
+      padding-left: 12%;
    }
+
    .row1 .sns{
       margin: 0 1.5rem;
-      padding: 5% 4%;
+      padding: 5% 7%;
    }
    .row1{
       height: 15vh;
@@ -949,7 +950,7 @@ nav .fas{
       margin: 0.5rem 1rem;
    }
    .contact-right .btn_btn2{
-      margin: 0 6rem;
+      margin: 0 7rem;
    }
 
 }
