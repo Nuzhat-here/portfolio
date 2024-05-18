@@ -10,6 +10,9 @@ html{
 body{
     background-color: black;
 }
+.sns-menu{
+   display: none;
+}
 .container{
     width: 100%;
     height: 100vh;
@@ -460,6 +463,11 @@ nav .fas{
 }
 
 @media (width <= 650px){
+
+   .sns-menu{
+      display: flex;
+      column-gap: 10%;
+   }
    body{
       background-color: black;
       background-size: cover;
@@ -667,12 +675,12 @@ nav .fas{
       margin: 2rem 30%;
    }
   .btn1 {
-      margin: 10% auto;
+      margin: 5% auto;
       text-align: center;
       display: inline;
       justify-content: center;
       align-items: center;
-      width: 70%;
+      width: 100%;
       overflow: hidden;
       height: 4rem;
       background-size: 300% 300%;
@@ -701,9 +709,9 @@ nav .fas{
  strong {
       z-index: 2;
       font-family: 'Avalors Personal Use';
-      font-size: 1.5rem;
-      letter-spacing: 5px;
+      font-size: 1rem;
       color: #FFFFFF;
+      letter-spacing: 1px;
  }
  
  #glow {
@@ -815,22 +823,7 @@ nav .fas{
  /* contactss */
 
  .row1{
-   display:inline;
-   overflow-x: hidden;
-   display:inline;
-   top: 50%;
-   left: 50%;
-   margin: 0;
-}
-.row1 .subtitle4{
-   display: none;
-}
-.row1 p{
-   margin: 1rem -5% ;
-}
-.row1 .sns{
-   margin: 0 4rem;
-   padding: 5% 5%;
+   display:none;
 }
 
 }
@@ -884,38 +877,17 @@ nav .fas{
    .btn1{
       margin: 0 auto;
    }
-
-   .contact-left{
-      margin: 0.5% 0;
-   }
    .contact-right .btn_btn2{
       margin: 2rem auto;
    }
    .contact-right{
+      margin-top: -30%;
       width: 100vw;
-      margin-top: -20px;
       padding-left: 0;
-      margin-right:0%;
    }
-   .row1 .subtitle4{
-      display: none;
-   }
-   .row1 p{
-      font-size: 15px;
-      margin: 0 auto;
-      padding-left: 12%;
-   }
-
-   .row1 .sns{
-      margin: 0 1.5rem;
-      padding: 5% 7%;
-   }
-   .row1{
-      height: 15vh;
-      grid-template-columns: 1fr;
-   }
+  
    .container0{
-      height: 100vh;
+      height: 90vh;
       background: linear-gradient(45deg, black, rgb(79, 36, 104), black, rgb(149, 80, 189));
       animation: color 12s ease-in-out infinite;
       background-size: 300%;
